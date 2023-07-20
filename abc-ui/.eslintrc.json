@@ -1,5 +1,5 @@
 {
-  "extends": ["../.eslintrc.json"],
+  "extends": ["../.eslintrc.base.json"],
   "ignorePatterns": ["!**/*"],
   "overrides": [
     {
@@ -9,7 +9,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "lib",
+            "prefix": "abc",
             "style": "camelCase"
           }
         ],
@@ -17,7 +17,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "lib",
+            "prefix": "abc",
             "style": "kebab-case"
           }
         ]
